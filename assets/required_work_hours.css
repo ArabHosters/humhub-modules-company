@@ -1,0 +1,299 @@
+html, body {background-color: #E6E6E6;}
+#wrap {
+    background-color: #E6E6E6;
+    width:100%;
+}
+
+.logout_holder { z-index:2 !important }
+.footer { height:0 }
+#newContent,.btn,.ui-dialog .ui-dialog-title{
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#newContent{
+    padding:0;
+    margin:0;
+}
+#newContentHeader{
+    border-bottom: 1px solid #C7C7C7;
+    background:none;
+    font-size:20px;
+    font-weight:bold;
+    padding:12px 10px 13px 10px;
+}
+#newContentHeader .title {
+    line-height: 35px;
+}
+#newContentHeader .alert.message-box{
+    font-weight:normal;
+    font-size:14px;
+    height:16px;
+    width:30%;
+    position: fixed;
+    left: 35%;
+    top: 48px;
+    opacity: .95;
+    z-index: 2000;
+}
+#newContentHeader .alert p{
+    margin-top: -3px;
+}
+#newContentHeader .title{
+    float:left;
+}
+#newContentBody{
+    border-top: 1px solid #FFFFFF;
+    padding:10px;
+    font-size:12px;
+}
+#newContentBody .btn-primary{
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px 1px;
+}
+#newContentBody .bootstrap-select.btn-group{
+    margin-bottom:0px;
+}
+#msg_delete{
+    display:none;
+}
+#previewState{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding:10px;
+    background-color:#fff;
+    border:1px solid #bababa;
+    text-shadow:none;
+}
+#previewState .btn-toolbar{
+    margin: 0px;
+    font-size: 12px;
+}
+#previewState table{
+    table-layout: fixed;
+}
+
+
+
+
+#previewState table .users_control td{
+    padding:5px;
+    border-bottom:1px solid #e5e5e5;
+    background-color: #e5e5e5;
+}
+#previewState table .users_control a{
+    color:#000;
+}
+#previewState table .message{
+    display:none;
+}
+#previewState table .btn-group.open .btn.dropdown-toggle { background: white  }
+#previewState table .message label{
+    font-size:10px;
+    line-height:10px;
+}
+#previewState table .btn, #previewState table .incomplete{
+    font-size:11px;
+    opacity:1;
+    font-weight:bold;
+    border-bottom-color:#999
+}
+#previewState table .btn{
+    height:19px;
+    line-height:17px;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.day-none.active, .day.active, .day-m2f.active{
+    background:url(../images/reports/btns_gradient_active.png) repeat-x left bottom;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+    border: 1px solid #333;
+    border-bottom-color: #333 !important;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+
+.header-image-links{
+    vertical-align:middle;
+}
+.header-links {
+    color: #3CACF8;
+    font-size: 12px;
+    vertical-align:middle;
+}
+.colName strong{
+    font-size: 12px;
+}
+.colWorkHour {
+}
+#previewState table .colMinHour .btn {
+    line-height: 18px;
+}
+#previewState  table .colStartTime .btn {
+    line-height: 18px;
+    width: 30px;
+    padding-left: 7px !important;
+    padding-right:7px !important;
+}
+.colWorkHour .week .btn{
+    width: 40px;
+}
+.colMinHour .btn, .colMinHour select{
+    width: 50px;
+}
+.colMinHour ul.dropdown-menu, .colStartTime  ul.dropdown-menu { min-width: 100%; max-height: 100px; overflow: auto }
+
+
+#previewState table { margin-bottom: 0px }
+.colStartTime .btn{
+    width: 20px;
+}
+#previewState table .btn:focus
+{
+    outline:none;
+}
+.caret
+{
+    margin-top: 7px;
+}
+.dropdown-menu li{
+    cursor: pointer;
+}
+#previewState table a.btn.dropdown-toggle.disabled, .testselect.disabled {
+    background-color: transparent;
+    border: 1px solid #c0c0c0;
+    box-shadow: none;
+    color: #c0c0c0;
+}
+#previewState table a.btn.dropdown-toggle.disabled .caret{
+    border-top: 4px solid #c0c0c0;
+}
+#info-box{
+    margin: -8px 0px 12px 8px;
+    text-align: justify;
+    font-size: 13px;
+    text-shadow:none;
+    line-height: 18px;
+}
+.btn.btn-blue {
+    font-family: Arial;
+    background: url('../images/company_settings/btn_gradient_blue.png') repeat-x left bottom;
+    color: white;
+    text-shadow: 0px -1px 0px #333;
+    border: 1px solid #2c81c3;
+    border-bottom: none;
+    -webkit-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+    -moz-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+    height: 35px;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0px;
+    outline: none;
+}
+.btn-blue:hover {
+    border: 1px solid #2c81c3;
+    border-bottom: none;
+    -webkit-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+    -moz-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 1px 0px 0px rgba(255,255,255,0.35) inset;
+}
+.btn-blue:active {
+    -webkit-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 3px 2px 0px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 3px 2px 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.3) inset, 0px 3px 2px 0px rgba(0, 0, 0, 0.1) inset;
+}
+.btn.btn-blue.inactive, .btn.btn-blue.inactive:hover, .btn.btn-blue.inactive:active {
+    background: transparent;
+    color: #999;
+    text-shadow: none;
+    border: 1px solid #bababa;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: auto;
+}
+.tdMessage>div {
+    display:block;
+    position:fixed;
+    top:89px;
+    left:50%;
+    margin-left:-2000px;
+    font-size:13px;
+    padding:5px 15px 5px 35px;
+    z-index:99999;
+    -webkit-box-shadow: 0px 0px 18px -6px #000;
+    -moz-box-shadow: 0px 0px 18px -6px #000;
+    box-shadow: 0px 0px 18px -6px #000;
+}
+
+.tdError {
+    background:#ffe1e8 url(../images/reports/error_message_icon.png) no-repeat 9px center;
+    color: #e1003c;
+    border:1px solid #ec7f96;
+}
+.tdInfo {
+    background:#fff4b7 url(../images/reports/info_message_icon.png)  no-repeat 9px center;
+    color:#e1a229;
+    border:1px solid #e1a229;
+}
+.tdLoading {
+    background:#fff4b7 url(../images/reports/loading-16x16.gif)  no-repeat 9px center;
+    color:black;
+    border:1px solid #e1a229;
+}
+.tdSuccess {
+    background:#e9ffc8 url(../images/reports/success_message_icon.png) no-repeat 9px center;
+    color:#45ae0c;
+    border:1px solid #76c500;
+}
+
+.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover { font-size: 12px }
+.bootstrap-select.btn-group .btn .caret { right:5px !important }
+.bootstrap-select.btn-group .btn .filter-option { left: 7px }
+.reportTable th {
+    padding: 6px !important;
+    background: white url(../images/reports/thead_gradient.png) repeat-x bottom left;
+    border: 1px solid #CCC !important;
+    border-bottom: 1px solid #999 !important;
+    text-shadow: 1px 1px 1px white;
+}
+.reportTable td { padding: 5px !important }
+p.td-text-info { text-shadow: none }
+
+.td-dropdown-short-fields .btn { min-width: 65px !important; }
+.colStartTime  .td-dropdown-short-fields .btn { min-width: 45px !important; }
+.colStartTime div.dropdown-menu ul { width: 45px }
+.bootstrap-select.btn-group .btn .filter-option { right: auto }
+.colMinHour .dropdown-menu>li>a, .colStartTime .dropdown-menu>li>a { text-align: center; padding: 3px }
+.colStartTime .dropdown-menu>li>a { padding: 3px 0 }
+
+.table td.span1,.table th.span1{float:none;width:44px;margin-left:0;}
+.table td.span2,.table th.span2{float:none;width:124px;margin-left:0;}
+.table td.span3,.table th.span3{float:none;width:204px;margin-left:0;}
+.table td.span4,.table th.span4{float:none;width:284px;margin-left:0;}
+.table td.span5,.table th.span5{float:none;width:364px;margin-left:0;}
+.table td.span6,.table th.span6{float:none;width:444px;margin-left:0;}
+.table td.span7,.table th.span7{float:none;width:524px;margin-left:0;}
+.table td.span8,.table th.span8{float:none;width:604px;margin-left:0;}
+.table td.span9,.table th.span9{float:none;width:684px;margin-left:0;}
+.table td.span10,.table th.span10{float:none;width:764px;margin-left:0;}
+.table td.span11,.table th.span11{float:none;width:844px;margin-left:0;}
+.table td.span12,.table th.span12{float:none;width:924px;margin-left:0;}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn { opacity: .6 !important }
+.colName strong { font-weight: normal; vertical-align: -2px }
