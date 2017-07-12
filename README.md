@@ -25,7 +25,7 @@ You'll find this [Help Guide](https://github.com/ArabHosters/humhub-modules-comp
 - Enable it in Administration -> Modules
 
 __Module website:__ <https://github.com/ArabHosters/humhub-modules-company>    
-__Author:__ Nedal    
+__Author:__  [Nedal Elghamry](https://github.com/Dasteem)    
 __Author website:__ [arabhosters.com](httsp://arabhosters.com)    
 
 ## Changelog
