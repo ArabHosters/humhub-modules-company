@@ -11,6 +11,19 @@ Full Company Module for HumHub v11 the featured rich and highly flexible OpenSou
 
 - HumHub v11
 
+
+## Feature 
+
+- Manage Company Information
+- Manage Company Org Structure
+- Manage Department and Locations
+- Employee Title / Position 
+- Employee Leaves
+- Employee Profile Qulification / Certificates / Skills
+- Payroll / Payslips
+- and more ..
+
+
 ## ScreenShot
 
 ![alt tag](http://storage7.static.itmages.com/i/17/0711/h_1499813577_3527701_68b75aafab.png)
