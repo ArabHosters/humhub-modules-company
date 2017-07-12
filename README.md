@@ -1,6 +1,9 @@
 HumHub Company Module
 ===========================
 
+[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+
+
 ## Description
 Full Company Module for HumHub v11 the featured rich and highly flexible OpenSource Social Network Kit written in PHP.
 
